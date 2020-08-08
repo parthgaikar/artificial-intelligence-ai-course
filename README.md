@@ -1,2 +1,2 @@
 # artificial-intelligence-ai-course
-What is AI and it works
+What is AI and how it works
