@@ -1,0 +1,16 @@
+title: 'Artificial Intelligence [ AI ]'
+description: What is AI and it works
+template:
+  repo: artificial-intelligence-ai-template
+  name: artificial-intelligence-ai
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
